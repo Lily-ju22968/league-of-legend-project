@@ -1,0 +1,22 @@
+body{
+  background-color: black !important;
+}
+
+.card-body{
+  background-color: rgb(83, 2, 83) !important;
+  color: goldenrod !important;
+  font-family: cursive !important;
+  
+}
+
+.h5{
+  font-size: 2.5rem !important;
+  font-family: fantasy !important;
+}
+
+h1{
+  color: dodgerblue !important;
+  font-size: 4.5rem !important;
+  margin: 30px !important;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
