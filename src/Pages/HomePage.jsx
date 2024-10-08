@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import ChampionsServices from "../Services/ChampionsServices";
 import { Container } from "react-bootstrap";
 import ChampionsCards from "../Components/ChampionsCards";
+import Pagination from "react-bootstrap/Pagination";
 
 
 const HomePage = () => {
-
 
     const [champions, setChampions] = useState([]);
     const fetchChampions = async () => {

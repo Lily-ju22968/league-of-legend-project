@@ -1,17 +1,19 @@
 body{
-  background-color: black !important;
+  background: rgb(147, 56, 220);
+  background: linear-gradient(0deg, rgb(147, 56, 220) 0%, rgb(212, 163, 28) 100%);
 }
 
 .card-body{
   background-color: rgb(83, 2, 83) !important;
   color: goldenrod !important;
-  font-family: cursive !important;
+  font-family: serif;
   
 }
 
 .h5{
   font-size: 2.5rem !important;
-  font-family: fantasy !important;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 h1{
@@ -19,4 +21,22 @@ h1{
   font-size: 4.5rem !important;
   margin: 30px !important;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar{
+  background: rgb(59,22,84);
+  background: linear-gradient(90deg, rgba(59,22,84,1) 0%, rgba(186,29,253,1) 50%, rgba(224,184,61,1) 100%);
+  color: goldenrod!important;
+}
+
+.link{
+  text-decoration: none;
+  color: rgb(14, 188, 14);
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.link:hover{
+  color: rgb(14, 133, 157);
 }
