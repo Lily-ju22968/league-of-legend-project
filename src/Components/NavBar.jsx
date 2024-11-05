@@ -12,6 +12,7 @@ const NavBar= () => {
           <Navbar.Brand><Link className='link' to={'/'}>Home</Link></Navbar.Brand>
           <Navbar.Brand><Link className='link' to={'/LorePage'}>Lore</Link></Navbar.Brand>
           <Navbar.Brand><Link className='link' to={'/RelationsPage'}>Relations</Link></Navbar.Brand>
+          <Navbar.Brand><Link className='link' to={'/ItemsPage'}>Items</Link></Navbar.Brand>
         </Container>
       </Navbar>
     </>;
