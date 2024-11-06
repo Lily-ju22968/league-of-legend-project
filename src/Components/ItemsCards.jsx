@@ -6,12 +6,12 @@ const ItemsCards = ({itemsCards}) => {
     console.log(itemsCards);
     
     const navigate = useNavigate();
-    const navigateTo = (full) => {
-        navigate("/ItemsPage/");
+    const navigateTo = (name) => {
+        navigate("/ItemsPage/"+name, {state : {item : itemsCards}});
     }
 
     return <>
-        <Card style={{ width: '18rem' }} onClick={() => {navigateTo()}}>
+        <Card style={{ width: '18rem' }} onClick={() => {navigateTo(itemsCards.name)}}>
         <Card.Img variant="top" src={"https://ddragon.leagueoflegends.com/cdn/14.21.1/img/item/"+itemsCards.image.full} />
       <Card.Body>
         <Card.Title className='d-flex align-items-center flex-column mb-3'>{itemsCards.name}</Card.Title>
